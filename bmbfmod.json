@@ -1,0 +1,29 @@
+{
+  "id": "fps-qounter",
+  "name": "FpsQounter",
+  "version": "0.1.0",
+  "author": "nyamimi~, Lillie",
+  "description": [
+    "Enables the (built-in/debug) FPS counter in Beat Saber."
+  ],
+  "category": "Gameplay",
+  "gameVersion": "1.13.2",
+  "platform": "Quest",
+  "components": [
+    {
+      "type": "HookMod",
+      "installAction": {
+        "installLibraryFile": "libfps-qounter.so"
+      },
+      "uninstallAction": {
+        "removeLibraryFile": "libfps-qounter.so"
+      }
+    },
+    {
+      "type": "HookModLibrary",
+      "installAction": {
+        "installLibraryFile": "libbeatsaber-hook_1_1_4.so"
+      }
+    }
+  ]
+}
