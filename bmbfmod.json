@@ -1,7 +1,7 @@
 {
   "id": "fps-qounter",
   "name": "FpsQounter",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": "nyamimi~, Lillie",
   "description": [
     "Enables the (built-in/debug) FPS counter in Beat Saber."
